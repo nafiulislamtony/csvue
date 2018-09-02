@@ -16,6 +16,8 @@ npm install csvue
 <csvue :columns="cols" :data="dataSet">Download CSV</csvue>
 ```
 
+> In Script
+
 ```js
 import csvue from 'csvue';
 
@@ -55,7 +57,7 @@ data | Array | `null` | Array of objects that needs to be converted in CSV
 columns | Array | `null` | Array objects (each object should have a `key` & a `title` property)<br> `key` = access key in array object. Use `.` to access multilayer property<br>`title` = Title of column
 separator | String | `,` | Delimeter to separate cell values. Supported separators are `,`, `;` & `' '`(space)
 fileName | String | `csVue` | Name of the file to be downloaded (without file extension)
-customStyle | Object | { 'padding': '8px 10px',<br>'background': 'lightgrey',<br>'color': 'darkslategrey',<br>'font-size': '14px',<br>'font-weight': 'bold',<br>'cursor': 'pointer',<br>'border': '1px solid lightgrey',<br>'border-radius': '4px',<br>'outline': 'none' }<br><br>PS: Style can also be done by styling `csvue-btn` class
+customStyle | Object | { 'padding': '8px 10px',<br>'background': 'lightgrey',<br>'color': 'darkslategrey',<br>'font-size': '14px',<br>'font-weight': 'bold',<br>'cursor': 'pointer',<br>'border': '1px solid lightgrey',<br>'border-radius': '4px',<br>'outline': 'none' } | Custom style object. It can also be done by styling `csvue-btn` class
 
 ## Events
 
