@@ -1,7 +1,7 @@
 {
-  "name": "csvue",
+  "name": "@nafiulislamtony/csvue",
   "homepage": "https://github.com/nafiulislamtony/csvue",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "main": "./dist/csvue.common.js",
   "scripts": {
     "serve": "vue-cli-service serve",
